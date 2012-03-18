@@ -7,6 +7,9 @@ let maplocalleader = ";"
 " have W write as well for shift being held too long
 command W w
 
+"set pastetoggle keybinding
+set pastetoggle=<F2>
+
 " Make Y consistent with D and C
 map Y           y$
 
