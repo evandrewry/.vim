@@ -105,3 +105,6 @@
 [submodule "bundle/vim-colors-candycode"]
 	path = bundle/vim-colors-candycode
 	url = https://github.com/vim-scripts/candycode.vim.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.git
