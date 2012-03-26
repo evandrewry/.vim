@@ -75,8 +75,8 @@ map <D-N>       :CommandTFlush<CR>:CommandT<CR>
 map <leader>f   :CommandTFlush<CR>:CommandT<CR>
 
 " ctags with rails load path
-map <leader>t :!bundle exec rails runner 'puts $LOAD_PATH.join(" ")' \| xargs /usr/local/bin/ctags -R public/javascripts<CR>
-map <leader>T :!bundle exec rails runner 'puts $LOAD_PATH.join(" ")' \| xargs rdoc -f tags<CR>
+map <leader>t :!bundle exec rails runner 'puts $LOAD_PATH.select{\|x\| x =~ \%r{/casebook2/} && x \!~ \%r{/(vendor\|spec)\b} }.join(" ")'  \| xargs /usr/local/bin/ctags -R public/javascripts<CR>
+map <leader>T :!bundle exec rails runner 'puts $LOAD_PATH.select{\|x\| x =~ \%r{/casebook2/} && x \!~ \%r{/(vendor\|spec)\b} }.join(" ")' \| xargs rdoc -f tags<CR>
 
 " Git blame
 map <leader>g   :Gblame<CR>
