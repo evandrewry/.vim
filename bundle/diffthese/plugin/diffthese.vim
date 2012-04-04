@@ -9,11 +9,7 @@ function! s:DiffThese(...)
   else
     " Diff only the given windows
     let start_i = winnr()
-    diffoff!
-    for i in a:000
-      execute i . "wincmd w"
-      diffthis
-    endfor
+    windo diffthis | if index(a:000, winnr()) == -1 | set nodiff | endif
     execute start_i . "wincmd w"
   endif
 endfunction
