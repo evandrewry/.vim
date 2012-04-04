@@ -20,4 +20,4 @@ command! -n=0 -bar DiffTheirs :call s:DiffThese(1,2)
 command! -n=0 -bar DiffMine :call s:DiffThese(2,3)
 command! -n=0 -bar DiffChanges :call s:DiffThese(1,3)
 command! -n=0 -bar DiffAll :call s:DiffThese(1,2,3,4)
-command! -n=0 -bar DiffOff :call diffoff!
+command! -n=0 -bar DiffOff diffoff!
