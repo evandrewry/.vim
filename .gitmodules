@@ -111,3 +111,6 @@
 [submodule "bundle/vim-colors-sampler"]
 	path = bundle/vim-colors-sampler
 	url = https://github.com/vim-scripts/Color-Sampler-Pack.git
+[submodule "bundle/enhancedjumps"]
+	path = bundle/enhancedjumps
+	url = https://github.com/vim-scripts/EnhancedJumps.git

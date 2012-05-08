@@ -1,0 +1,4 @@
+nmap <Plug>DisableEnhancedJumpsOlder <Plug>EnhancedJumpsOlder
+nmap <Plug>DisableEnhancedJumpsNewer <Plug>EnhancedJumpsNewer
+nmap <Plug>DisableEnhancedJumpsFarFallbackChangeOlder <Plug>EnhancedJumpsFarFallbackChangeOlder
+nmap <Plug>DisableEnhancedJumpsFarFallbackChangeNewer <Plug>EnhancedJumpsFarFallbackChangeNewer
