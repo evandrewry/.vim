@@ -37,16 +37,6 @@ set wildmode=list:longest       " Bash-like tab completion
 set scrolloff=3                 " Scroll when the cursor is 3 lines from edge
 set cursorline                  " Highlight current line
 
-" More detailed status line
-set statusline=[%n]\ %f\ %m\ %y
-set statusline+=%{fugitive#statusline()} " Show git details"
-set statusline+=%{exists('g:loaded_rvm')?rvm#statusline():''} " Show RVM details"
-set statusline+=%w              " [Preview]
-set statusline+=%=              " Left/right separator
-set statusline+=%c,             " Cursor column
-set statusline+=%l/%L           " Cursor line/total lines
-set statusline+=\ %P            " Percent through file
-
 set laststatus=2                " Always show statusline
 
 set incsearch                   " Incremental search
