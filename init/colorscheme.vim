@@ -5,4 +5,4 @@ if &t_Co == 256
 endif
 
 set background=dark
-colorscheme solarized
+colorscheme Tomorrow-Night
