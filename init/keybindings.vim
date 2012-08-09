@@ -100,6 +100,7 @@ map <leader>C :let @* = expand("%").":".line(".")<CR>:echo "Copied: ".expand("%"
 " Run tests
 map <leader>t :wa<CR>:RunTestLine<CR>
 map <leader>T :wa<CR>:RunTest<CR>
+map <leader>tt :wa<CR>:RunTestAgain<CR>
 
 map <F12> :write<CR>:RunTest<CR>
 imap <F12> <ESC><F12>
