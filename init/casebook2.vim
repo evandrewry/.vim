@@ -19,3 +19,6 @@ augroup CB2Abbreviations
   au User BufEnterRails Rabbrev E:: Eligibility
   au User BufEnterRails Rabbrev RL:: RemovalLocation
 augroup END
+
+" Edit crontab in-place
+au FileType crontab set nobackup nowritebackup
