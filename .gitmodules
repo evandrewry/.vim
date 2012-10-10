@@ -135,3 +135,6 @@
 [submodule "bundle/tmux-config"]
 	path = bundle/tmux-config
 	url = git://github.com/pivotal/tmux-config.git
+[submodule "bundle/mustache"]
+	path = bundle/mustache
+	url = git://github.com/juvenn/mustache.vim.git
