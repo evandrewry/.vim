@@ -138,3 +138,6 @@
 [submodule "bundle/mustache"]
 	path = bundle/mustache
 	url = git://github.com/juvenn/mustache.vim.git
+[submodule "bundle/vim-cucumber-align-pipes"]
+	path = bundle/vim-cucumber-align-pipes
+	url = git://github.com/quentindecock/vim-cucumber-align-pipes.git
