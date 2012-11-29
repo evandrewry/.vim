@@ -144,3 +144,6 @@
 [submodule "bundle/j-split"]
 	path = bundle/j-split
 	url = git://github.com/mgamba/j-split.git
+[submodule "bundle/ZoomWin"]
+	path = bundle/ZoomWin
+	url = https://github.com/vim-scripts/ZoomWin.git
