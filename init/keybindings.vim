@@ -4,8 +4,12 @@
 let mapleader = ","
 let maplocalleader = ";"
 
-" have W write as well for shift being held too long
-command W w
+" Gracefully handle holding shift too long after : for common commands
+cabbrev W w
+cabbrev Q q
+cabbrev Wq wq
+cabbrev Tabe tabe
+cabbrev Tabc tabc
 
 "set pastetoggle keybinding
 set pastetoggle=<F2>
