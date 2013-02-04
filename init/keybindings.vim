@@ -134,3 +134,6 @@ nmap du :diffupdate<CR>
 
 " Gundo.vim
 map <leader>u :GundoToggle<CR>
+
+" vim-blockle.vim
+let g:blockle_mapping = '<Leader>l'
