@@ -82,7 +82,8 @@ map <leader>rf :FufRenewCache<CR>
 
 " Command-T
 map <D-N>       :CommandTFlush<CR>:CommandT<CR>
-map <leader>f   :CommandTFlush<CR>:CommandT<CR>
+map <leader>F   :CommandTFlush<CR>:CommandT<CR>
+map <leader>f   :CommandT<CR>
 
 " ctags with rails load path
 map <leader>rt :!bundle exec rails runner 'puts $LOAD_PATH.select{\|x\| x.include?(Dir.pwd) && x \!~ \%r{/(vendor\|spec)\b} }.join(" ")' \| xargs /usr/local/bin/ctags -R public/javascripts<CR>
