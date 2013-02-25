@@ -83,6 +83,7 @@ map <leader>rf :FufRenewCache<CR>
 " Command-T
 map <D-N>       :CommandTFlush<CR>:CommandT<CR>
 map <leader>F   :CommandTFlush<CR>:CommandT<CR>
+nmap <C-p>      :CommandT<CR>
 map <leader>f   :CommandT<CR>
 
 " ctags with rails load path
