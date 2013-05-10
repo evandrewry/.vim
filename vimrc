@@ -22,4 +22,6 @@ filetype plugin indent on
 
 runtime! init/**.vim
 
-silent! source ~/.vimrc.local
+if filereadable($HOME . "/.vimrc.local")
+  source ~/.vimrc.local
+endif
