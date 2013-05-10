@@ -162,3 +162,6 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
+[submodule "bundle/edit-plus"]
+	path = bundle/edit-plus
+	url = https://github.com/mgamba/edit-plus.git
