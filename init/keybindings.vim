@@ -69,6 +69,9 @@ map <M-D-Right> :bn<CR>
 vmap <tab> >gv
 vmap <s-tab> <gv
 
+" Tab in insert mode should just indent
+autocmd VimEnter * iunmap <tab>
+
 " FuzzyFinder
 map <D-e>       :FufBuffer<CR>
 map <leader>rb  :FufBuffer<CR>
