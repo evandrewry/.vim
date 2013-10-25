@@ -1,0 +1,8 @@
+"powerline
+let g:Powerline_symbols = 'fancy'
+set guifont=Menlo\ for\ Powerline
+
+"macvim toolbar
+if has("gui_running")
+    set guioptions=egmrt
+endif
